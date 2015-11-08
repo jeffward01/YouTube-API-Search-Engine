@@ -1,6 +1,6 @@
 //Search Bar Handler
 $(function () {
-  alert("JS works!");
+
 
   var searchField = $('#query');
   var icon = $('#search-btn');
@@ -38,6 +38,12 @@ $(function () {
 
 }); //End Document Ready
 
+
+
+function clearResults(){
+     $('#results').html('');
+      $('#buttons').html('')
+}
 
 function search() {
   //Clear Results

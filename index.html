@@ -4,7 +4,7 @@
     <title>SearchVidz</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
@@ -24,9 +24,10 @@
           <div class="fieldcontainer">
             <input type="search" id="query" class="search-field" placeholder="Search YouTube...">
             <input type="submit" name="search-btn" id="search-btn" value="">
+            <button type="button" class="btn btn-info" onclick="clearResults()">Clear</button>
           </div>
         </form>
-        
+
         <ul id="results"></ul>
         <div id="buttons"></div>
       </section>
